@@ -1,8 +1,17 @@
 # 2023년 한이음 ICT 프로젝트
 ## 프로젝트 개요
 ###  1. 프로젝트 소개
-> 최근 방범용 cctv, 비상벨(안심벨) 등 가로등에 기능을 추가한 스마트 가로등을 통해 범죄 예방에 도움을 주고 있다. 저희는 이면도로에서도 가로등에 대한 접근성이 용이하다는 점을 이용하여 교통사공 취약한 지역의 문제를 해결하고자 하였습니다. 
- 방향성이 없는 보차혼용도로와 이면도로에서의 교차로의 경우 4개의 방향에서 교차로에 진입 할 수 있는 문제의 초점을 맞추어, 최근 발전 중인 AI 기술의 CV분야에서 YOLO와 SSD와 같은 객체 탐지 기술과 Object Tracking 기술을 접목하여 새로운 기능을 만들어내는 시스템입니다. 기능으로는 먼저 교차로에 진입하는 물체를 탐지 한 후, 진행 방향을 파악하여 도로를 이용하는 모든 사용자에게 시각 정보를 제공하여 사고를 대비할 수 있도록 하는 시스템을 만들고자 하였습니다.
+
+>  신호가 없는 좁은 이면도로 교차로에서의 사고를 줄이는 스마트 가로등입니다. 이면도로에서도 접근성이 용이하다는 가로등의 장점을 살려 스마트 가로등의 형태로, 카메라를 이용하여 보행자, 모빌리티 등 교차로의  객체를 객체 탐지 기술과 Tracking 기술을 이용하여 교차로 진입을 판단하고, 시야 제한으로 인해 얻지 못하는 정보를 직관적인 신호를 통해 제공하여 교통사고 발생을 예방할 수 있는 시스템입니다.
+
+
+<p align="center">
+<img src="https://private-user-images.githubusercontent.com/101693311/262016104-4ee7397c-b52d-40c8-9223-3bb2363e4823.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTkzNjksIm5iZiI6MTY5MjYxOTA2OSwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDE2MTA0LTRlZTczOTdjLWI1MmQtNDBjOC05MjIzLTNiYjIzNjNlNDgyMy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMTU3NDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MWQwZTM1OTM3NDFkZTE5YzVmZDAwODk4ZjBkMTdlNjhjZmNlN2NiYWYxYjI3MmRiMDIzOGJlYTljMzlhNDVhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.kNYePoptj0TBrQWsTyqpHSWte7o_0zBPxjENCgmwOrM">
+</p>
+
+<p align="center">
+<img src="https://private-user-images.githubusercontent.com/101693311/262016110-aa2ff0d5-3957-4429-963c-e8adb562c036.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTkzNzEsIm5iZiI6MTY5MjYxOTA3MSwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDE2MTEwLWFhMmZmMGQ1LTM5NTctNDQyOS05NjNjLWU4YWRiNTYyYzAzNi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMTU3NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01OTM2Njc0MjE2MGZlMDBiNDljODc1NTE1M2E3ZmZjZmEzYWY2Zjg2ZDhhMDU0YmM2ODM1ZWVlNTgwYTE2Njg5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5yorOqJReq03JeFEL7gEf2UHGiHAlbT38mNoWjKhzmU">
+</p>
 
 ### 2. 개발 배경 및 필요성
 
@@ -10,17 +19,14 @@
   <img src="https://private-user-images.githubusercontent.com/101693311/262010836-903ea5f3-6261-4749-a93e-b7c1ddc84f0b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTgzODYsIm5iZiI6MTY5MjYxODA4NiwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDEwODM2LTkwM2VhNWYzLTYyNjEtNDc0OS1hOTNlLWI3YzFkZGM4NGYwYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMTQxMjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NGQzZWZkYTE2MzFmNzczNTc3NGVjZGVhODNmNGEwZTFlYjJmMjZhZjZlMzMyNWJmMTE4MTAyMzQ1ZmZmNmIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.2C1UD3BhVK5tAyRMJ0fXVbHtmd61dOB4JbcSepQvGXU">
 </p>
 
-  > 현재 교차로에서의 교통 사고율 다른 도로 유형에서의 사고 전체를 합한 것에 버금가는 수치를 나타내고 있습니다. 큰 교차로에서의 사고와, 비보호 좌회전 등 여러 교통사고가 있지만, 이면도로로 이루어진 주택가나 상권 지역에서도 발생하고 있습니다.
 
 <p align="center">
   <img src="https://private-user-images.githubusercontent.com/101693311/262010863-f037f7b0-ffb0-41a1-9e3f-5528257a9616.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTgzODYsIm5iZiI6MTY5MjYxODA4NiwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDEwODYzLWYwMzdmN2IwLWZmYjAtNDFhMS05ZTNmLTU1MjgyNTdhOTYxNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMTQxMjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mOTNmNDRiMGUyODE3NmUxM2U1NGJmMTk1MmYwZDUwMWEzNWM3YTVjYWY4M2M0Y2NmMDU1OWU5NTcxMDg4NzM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.QLP3Z9MgCYmGNwrbzPA0V0F5V_repBeNiVi1sFWcXmA">
 </p>
 
-> 실제로 국토 교통부가 국가 보행교통 실태조사를 진행한 결과 차도와 보도의 구분이 없는 보차혼용도로가 차도와 보도가 분리된 도로보다 교통사고가 50% 더 발생한다고 하였다. 저희는 이러한 자료를 바탕으로 보차혼용도로의 유형 중 교차로가 가장 안전의 취약하다고 판단하였습니다.
- 그에 대한 원인으로 교차로에서의 시각 부하량을 원인으로 잡았습니다. 운전자는 운전에 필요한 정보의 90%를 시각에 의존하지만, 교차로에 진입하는 상황에서는 조심해야하는 부분이 더 증가하여 도시 고속도로에 비해 약 10배 이상의 시각적 부하가 발생한다는 연구 결과가 있다. 최근에는 불법주정차, 적재물, 환경적인 문제로 인해 운전자의 시점에서 좌, 우에서 접근하는 차량을 파악하기 어려운 상황이다. 또한 최근 자동차 보유 수 증가로 야기되는 불법 주정차 차량 증가로 더욱 시야 확보가 어려운 상황입니다.
+> 국내 교통사고의 절반은 교차로에서 발생하고 있습니다. 이 문제들은 주로 이면도로로 이루어진 주택가나 상권 지역에서 주로 발생하며 좁은 도로의 특성을 가지기 때문에 운전자들은 차량 사이로 튀어나오는 보행자, 차량, 퍼스널 모빌리티와 같은 다양한 요소로 인해 시야 부담을 겪게 됩니다. 실제로 이면도로에서의 시각적 부하가 도시 고속도로에 비해 약 10배 이상 높다는 연구결과가 있으며, 교통사고 발생률이 높아지기 때문에 부하량을 줄여주거나 운전자의 시점을 취약점에 집중하도록 유도하여 사고율을 낮출 필요가 있다고 판단하였습니다.
 
-> 시야 제한을 야기하는 대표적인 원인으로 불법주정차의 문제를 해결하면 교통사고율이 낮아질 수 있다. 최근 각 도시의 주차 문제를 해결하기 위해 공용 주차 구역을 설치하는 정책을 시행 중에 있는데 2025년까지 증축 계획이며, 많은 시간과 비용이 든다.
- 그렇기 때문에 저희는 새로운 기능을 제공하는 스마트 가로등과 같이 이러한 문제를 해결하기 위해 카메라를 접목하여 진입하는 차량, 사람, 퍼스널 모빌리티를 감지하고, 이동방향 및 위치를 파악하여 이를 불빛이나, 소리 등을 통해 정보를 제공하여 시각적 부하를 줄이고, 사고의 취약한 부분에 운전자가 집중할 수 있도록 제공하고자 하였습니다. 이러한 기능을 제공받는 운전자는 다른 방향에서 진입하는 것을 확인하여 속도를 줄여서 교차로의 진입하거나, 정지하여 차량이 지나가도록 양보하는 행동을 야기함으로써 교차로에서의 교통사고를 줄일 수 있는 시스템을 설계하고자 하였습니다.
+> 그렇기 때문에 저희는 새로운 기능을 제공하는 스마트 가로등과 같이 이러한 문제를 해결하기 위해 카메라를 접목하여 진입하는 차량, 사람, 퍼스널 모빌리티를 감지하고, 이동방향 및 위치를 파악하여 이를 불빛이나, 소리 등을 통해 정보를 제공하여 시각적 부하를 줄이고, 사고의 취약한 부분에 운전자가 집중할 수 있도록 제공하고자 하였습니다. 이러한 기능을 제공받는 운전자는 다른 방향에서 진입하는 것을 확인하여 속도를 줄여서 교차로의 진입하거나, 정지하여 차량이 지나가도록 양보하는 행동을 야기함으로써 교차로에서의 교통사고를 줄일 수 있는 시스템을 설계하고자 하였습니다.
 
 ### 3. 프로젝트 특징 및 장점
 > 기존의 교차로에서 사고를 예방하기 위해 반사 거울을 설치하거나 불법 주정차를 단속하여 시야를 확보할 수 있도록 하였습니다. 하지만, 반사거울에 경우 특정 각도가 아닌이상 확인 어려울 수 있으며, 밤에는 거울을 통해 다가오는 물체를 확인하기 어렵다는 문제점이 있고, 최근에는 거울앞에도 주정차를 하며 거울을 찾을 수도 없는 문제점이 있습니다.
@@ -52,14 +58,6 @@
 
 > - 기본적인 원리는 카메라를 통해 받은 이미지를 연산 처리하여 객체를 검출합니다. 물체가 탐지되지 않았을 경우 초기상태로 돌아가며, 물체가 탐지되었을 경우에는 객체 추적 기술을 통해 방향과, 위치 정보를 받아와 신호를 전달해야하는 특정 상황에 도달하면 아두이노에 신호를 전달합니다. 전달 된 신호를 처리하여 객체가 검출된 방향에 맞게 진입하는 양측 도로에서 확인할 수 있도록 LED가 점등되어 시각 정보를 제공합니다.
 
-* 3D 렌더링 사진
-<p align="center">
-<img src="https://private-user-images.githubusercontent.com/101693311/262016104-4ee7397c-b52d-40c8-9223-3bb2363e4823.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTkzNjksIm5iZiI6MTY5MjYxOTA2OSwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDE2MTA0LTRlZTczOTdjLWI1MmQtNDBjOC05MjIzLTNiYjIzNjNlNDgyMy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMTU3NDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MWQwZTM1OTM3NDFkZTE5YzVmZDAwODk4ZjBkMTdlNjhjZmNlN2NiYWYxYjI3MmRiMDIzOGJlYTljMzlhNDVhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.kNYePoptj0TBrQWsTyqpHSWte7o_0zBPxjENCgmwOrM">
-</p>
-
-<p align="center">
-<img src="https://private-user-images.githubusercontent.com/101693311/262016110-aa2ff0d5-3957-4429-963c-e8adb562c036.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTkzNzEsIm5iZiI6MTY5MjYxOTA3MSwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDE2MTEwLWFhMmZmMGQ1LTM5NTctNDQyOS05NjNjLWU4YWRiNTYyYzAzNi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMTU3NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01OTM2Njc0MjE2MGZlMDBiNDljODc1NTE1M2E3ZmZjZmEzYWY2Zjg2ZDhhMDU0YmM2ODM1ZWVlNTgwYTE2Njg5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5yorOqJReq03JeFEL7gEf2UHGiHAlbT38mNoWjKhzmU">
-</p>
 
 ### 5. 기대효과 및 활용분야 
 > 기존의 불법주정차차량 등으로 시야확보가 되지 않는 운전자가 좁은 도로를 운전하는 경우 사고 위험이 있다. 특히나 사거리와 같은 평면교차로의 부도로인 경우 사고 위험률은 더 높다.
@@ -90,3 +88,27 @@
 도로 장애물 차량 검지는 “도로 안전”과 밀접하게 관련된 것으로 현재 및 미래도로 환경에 필요한 기술이며, ”실시간성“이 필수이다. 현재의 기술은 검지 범위 및 실시간성에 대한 제약이 존재하기 때문에 이를 극복할 수 있는 기술을 ‘스마트 가로등’ 프로젝트를 통해 개발하였다.
 
 > 마지막으로 정보 제공측면이다. 현재 네비게이션의 길찾기 기능을 사용하면 길의 혼잡도를 색깔로 알려주는 기능이 있는데, 이는 골목길이나 좁은 길에대한 데이터를 수집하기 어려워 위치를 기반으로 그 지점에 사용자가 몇이나 있는지를 측정한 후에 색깔로 표시하는게 최선일 것이다. 저희 시스템을 통해 각 도로의 차량의 수나 상황에 대한 정보를 이용하여 혼잡도를 표시하는데 이용할 뿐 아니라, 응급 출동 시 진입이 불가능한 도로에 대해서 미리 파악하고 갈 수 있는 효과를 얻을 수 있을 것이다. 
+
+### 6. 프로젝트 개발 환경
+| **S/W**   개발환경         | 상세내용                                       |
+| ------------- | ---------------------------------------------- |
+|   OS   |  Linux (NVIDIA – JetPack)                  |
+|       IDE        |  Visual Studio Code                       |
+|       개발도구        | CUDA Toolkit / OpenCV / TensorFlow / PyTorch / Yolov7|
+| 개발언어      | Python / C++                                  |
+|     기타사항          |                                              |
+
+| **H/W**  구성장비     |                상세내용                              |
+| ------------- | ---------------------------------------------- |
+| 디바이스      | Jetson Nano Development Kit B02 & Arduino |
+| 센서          | USB 연결 방식의 카메라 / NeoPixel LED         |
+| 통신          | WiFi                                         |
+| 언어          | Python                                       |
+|     기타사항          |                3D Printing                              |
+
+| **프로젝트**    |                  관리환경                            |
+| ------------- | ---------------------------------------------- |
+|   형상관리    |  GitHub                             |
+|      의사소통관리         |  Zoom, 카카오톡, 대면 기록        |
+|     기타사항          |    
+
