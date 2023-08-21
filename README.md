@@ -61,3 +61,32 @@
 <img src="https://private-user-images.githubusercontent.com/101693311/262016110-aa2ff0d5-3957-4429-963c-e8adb562c036.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTkzNzEsIm5iZiI6MTY5MjYxOTA3MSwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDE2MTEwLWFhMmZmMGQ1LTM5NTctNDQyOS05NjNjLWU4YWRiNTYyYzAzNi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMTU3NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01OTM2Njc0MjE2MGZlMDBiNDljODc1NTE1M2E3ZmZjZmEzYWY2Zjg2ZDhhMDU0YmM2ODM1ZWVlNTgwYTE2Njg5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5yorOqJReq03JeFEL7gEf2UHGiHAlbT38mNoWjKhzmU">
 </p>
 
+### 5. 기대효과 및 활용분야 
+> 기존의 불법주정차차량 등으로 시야확보가 되지 않는 운전자가 좁은 도로를 운전하는 경우 사고 위험이 있다. 특히나 사거리와 같은 평면교차로의 부도로인 경우 사고 위험률은 더 높다.
+평면교차로 중 차도와 보도의 구분이 없는 이면도로나 무표지유형의 경우, 우선도로와 양보도로를 구분하지 않고 모든 방향에 황색점멸이나 양보, 서행 표지를 설치하거나 아예 표지 설치를 생략하는 경우로 별다른 통제 없이 운전자끼리 알아서 양보하여 교차로를 통행하는 체계이다. 다른 교통이 없을 경우 모든 방향에서 정지 의무가 없지만, 통행량이 급증할 경우 통행우선권이 불분명해 무질서해지기 쉽다. 또한, 좁은 골목길에서 ”정지차량”, “역주행차량”은 들어오는 차량의 시야를 방해하고, 교통사고 및 교통 혼잡을 유발하는 주요 요인이다.
+
+<p align="center">
+<img src="https://private-user-images.githubusercontent.com/101693311/262016875-c6b9a777-6267-4f02-a628-7937d536817c.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTk1ODUsIm5iZiI6MTY5MjYxOTI4NSwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDE2ODc1LWM2YjlhNzc3LTYyNjctNGYwMi1hNjI4LTc5MzdkNTM2ODE3Yy5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMjAxMjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNmQxMGRlMzU2YmY2NmMxNzNhZjNhN2NkZmY0ZmIxYmY3MzhlZjJhMjk1NzIyNTQwZTE4YTg1NmMzN2QyMzg0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qHa2UPxMNcejJLvEQc2XwzoLhwMV1_VLNbFnr9DDxoA">
+</p>
+
+> LED 조명을 이용해 야간 시 보행자와 차량 운전자에게 주의를 줘 교통 사고를 예방하는데 큰 도움을 주었다고 한다. 서울 성동구에서는 스마트횡단보도 설치 후 구의 교통 사고 발생률이 21.5% 감소하는 효과가 있었다. 전남 광주시는 교통 사고율을 줄이기 위해 지역 내 22개 구역에 스마트 횡단보도를 구축한다는 계획을 밝혔다.
+현재 서울시는 시민이 더욱 안전하고 쾌적한 삶을 영위할 수 있도록  주요 장소에 가로등에 여러 기능을 추가한 “스마트폴”을 설치하고 있다. 
+
+<p align="center">
+<img src="https://private-user-images.githubusercontent.com/101693311/262016879-51a1e93a-9bcc-4c96-ad75-265646641a38.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTI2MTk1ODUsIm5iZiI6MTY5MjYxOTI4NSwicGF0aCI6Ii8xMDE2OTMzMTEvMjYyMDE2ODc5LTUxYTFlOTNhLTliY2MtNGM5Ni1hZDc1LTI2NTY0NjY0MWEzOC5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwODIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDgyMVQxMjAxMjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZDk2YmU2ZmVmNTBlYTJlNmZlZWZkMDk0MGE5NzIwOTY5YTVmNmE1MzgxMTkwZWI2OTFlMjU4YjFkZmZhYTFiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.wQu3HOXI3cOp2x-Siy05nS6TEIJ1XiVHnRA40JDch3g">
+</p>
+
+> 또한 2020년 은평구에서 5곳에 AI 보행자 교통사고 방지 시스템을 도입한 것을 시작으로 현재 인천시에서도 우회전 가로등이 설치되어있는 것을 보아 가로등에 기능을 추가하여 안전한 환경을 구축하려는 정항이 많이 보이고 있다.
+스마트 가로등은 불법주정차를 단속하는 방법이 아닌, 불법주정차로 인해 시야 확보가 되지 않는 차량이 안전하게 이동할 수 있도록 신호를 주는 시스템이다. 불법주정차를 단속하는 것과 운전 차량에 신호를 주는 방식은 불법주정차를 장려하는 것이 아니냐는 의견이 나올 수 있다. 하지만 스마트 가로등은 기본적으로 불법 주정차로 인한 피해를 막고, 단속보다는 계도를 통한 원활한 교통 흐름을 만드는 것이 목적이다. 따라서 이런 순기능은 많은 지자체가 함께 참여할 때 가능하기 떄문에 지자체의 적극적인 제휴가 필요하다.
+
+> 스마트 가로등의 요구기능 및 개발방향은 영상처리 기반 도로 차량 검지, 객체 구분의 정확성 및 효율적인 학습 알고리즘, 학습 데이터 활용 및 지속적인 성능 고도화 기능 등을 통해 차량 운전자의 시야를 보완해주는 것
+보행자와 운전자에게 신호를 줄 수 있는 제품이 있다면, 보행자와 운전자 모두에게 더욱 안전하고 편안한 이동환경을 제공해 줄 수 있을 것이며, 교통 혼잡과 교통사고의 감소로 인해 지자체 차원에서도 좋은 결과일 것이다.
+> 
+> 일전에 문제 분석을 통해 좁은 골목 교차로 사고에서 우리가 집중한 원인은 신호의 부재와 주정차 차량이나 건물로 인한 시야각 감소였다. 그래서 우리가 생각한 해결법은 미리 시야를 확보한 후 신호를 주는 것이다.  교차로에 가로등을 설치하고 암을 중앙에 뻗고 그 끝에 4방향의 카메라를 설치해 교차로의 모든 방향을 확인할 수 있도록 한다.  그리고 4방향에 모두 디스플레이나 LED등의 시각적인 정보를 전달할 수 있는 장치를 설치한다, 만약 카메라에 교차로에 진입하려는 차량이 인식되면 진입하려는 차량의 수직 방향이 되는 2개의 도로에 어느 방향에서 지금 차량이 접근하고 있는지 시각적인 신호를 통해 알려준다.
+
+> 이런 식으로 상단에 설치된 카메라를 통해 운전자의 시야각을 보완하고 마라 정보를 제공해 사고를 예방하는 방법이다. 이를 통해 보행자와 운전자에게 보다 안전한 교통상황을 제공할 수 있으며, 지자체 차원에서는 교통사고율 감소의 효과를 낳을 수 있다. 
+ 국가의 교통 정보체계가 소통정보에서 안전정보로 변화하고, 주행하는 차의 원활한 통행을 방해할 수 있는 좁은 골목길의 도로 장애물(불법 주정차, 역주행차량)을 정확하게 검지하는 기술은 현재는 물론 미래 자율주행차의 교통 환경에서도 반드시 필요한 핵심기술이다.
+또한 국내에서도 오래전부터 돌발 상황검지를 위한 기술 개발을 진행해왔으며, 지난‘18년 국가 공인인증제도’가 수립되면서, 도로 장애물 감지 기술 적용에 대한 관심과 필요성이 대두되고 있다.
+도로 장애물 차량 검지는 “도로 안전”과 밀접하게 관련된 것으로 현재 및 미래도로 환경에 필요한 기술이며, ”실시간성“이 필수이다. 현재의 기술은 검지 범위 및 실시간성에 대한 제약이 존재하기 때문에 이를 극복할 수 있는 기술을 ‘스마트 가로등’ 프로젝트를 통해 개발하였다.
+
+> 마지막으로 정보 제공측면이다. 현재 네비게이션의 길찾기 기능을 사용하면 길의 혼잡도를 색깔로 알려주는 기능이 있는데, 이는 골목길이나 좁은 길에대한 데이터를 수집하기 어려워 위치를 기반으로 그 지점에 사용자가 몇이나 있는지를 측정한 후에 색깔로 표시하는게 최선일 것이다. 저희 시스템을 통해 각 도로의 차량의 수나 상황에 대한 정보를 이용하여 혼잡도를 표시하는데 이용할 뿐 아니라, 응급 출동 시 진입이 불가능한 도로에 대해서 미리 파악하고 갈 수 있는 효과를 얻을 수 있을 것이다. 
