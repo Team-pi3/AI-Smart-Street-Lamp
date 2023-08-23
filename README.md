@@ -6,22 +6,22 @@
 
 
 <p align="center">
-<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/4ee7397c-b52d-40c8-9223-3bb2363e4823">
+<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/76522fd8-d44f-4bec-8094-235d0e554fb9">
 </p>
 
 <p align="center">
-<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/d1fcb764-fe91-4ac4-8d27-98beb17ea18c">
+<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/5d2d6a84-2fe5-41f8-aa81-490591da8790">
 </p>
 
 ### 2. 개발 배경 및 필요성
 
 <p align="center">
-  <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/903ea5f3-6261-4749-a93e-b7c1ddc84f0b">
+  <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/94831932-6366-49ec-bccb-4c9b58feb4a1">
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/f037f7b0-ffb0-41a1-9e3f-5528257a9616">
+  <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/0910bc4f-b6da-4190-9eaa-5ba70d1d1136">
 </p>
 
 > 국내 교통사고의 절반은 교차로에서 발생하고 있습니다. 이 문제들은 주로 이면도로로 이루어진 주택가나 상권 지역에서 주로 발생하며 좁은 도로의 특성을 가지기 때문에 운전자들은 차량 사이로 튀어나오는 보행자, 차량, 퍼스널 모빌리티와 같은 다양한 요소로 인해 시야 부담을 겪게 됩니다. 실제로 이면도로에서의 시각적 부하가 도시 고속도로에 비해 약 10배 이상 높다는 연구결과가 있으며, 교통사고 발생률이 높아지기 때문에 부하량을 줄여주거나 운전자의 시점을 취약점에 집중하도록 유도하여 사고율을 낮출 필요가 있다고 판단하였습니다.
@@ -38,22 +38,22 @@
   * HW 구성도    
     > - GPU가 탑재된 Jetson nano 보드와 Arduino 보드를 통해 기능을 구현하였으며, 외관은 3D프린터를 통해 제작하였습니다.
     <p align="center">
-      <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/8a1dda16-9779-43a9-88ed-0cfd35107b1d">
+      <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/7bd5560b-0fe9-4995-be3c-13b74bba5bf6">
     </p>
 
   * SW 구성도
     > - 데이터 수집, 학습 과정, 객체 탐지 및 추적 
    <p align="center">
-     <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/2e2758b5-5dd8-4bd8-9765-e73a0f2282d6">
+     <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/514964d1-f329-4822-8c41-19da2e852677">
    </p>  
 
 <p align="center">
-  <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/d5e4cc02-d5e0-4496-b2a5-86b3f5268696">
+  <img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/9dcac0b0-a6a9-46a8-af48-2f503187dcc4">
 </p>
     
   * 서비스 흐름도
 <p align="center">
-<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/0c7fb924-b542-464a-8a0a-3c3fadd20f17">
+<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/8d84106c-e802-4a2d-8c32-1e1c80706201">
 </p>
 
 > - 기본적인 원리는 카메라를 통해 받은 이미지를 연산 처리하여 객체를 검출합니다. 물체가 탐지되지 않았을 경우 초기상태로 돌아가며, 물체가 탐지되었을 경우에는 객체 추적 기술을 통해 방향과, 위치 정보를 받아와 신호를 전달해야하는 특정 상황에 도달하면 아두이노에 신호를 전달합니다. 전달 된 신호를 처리하여 객체가 검출된 방향에 맞게 진입하는 양측 도로에서 확인할 수 있도록 LED가 점등되어 시각 정보를 제공합니다.
@@ -64,14 +64,14 @@
 평면교차로 중 차도와 보도의 구분이 없는 이면도로나 무표지유형의 경우, 우선도로와 양보도로를 구분하지 않고 모든 방향에 황색점멸이나 양보, 서행 표지를 설치하거나 아예 표지 설치를 생략하는 경우로 별다른 통제 없이 운전자끼리 알아서 양보하여 교차로를 통행하는 체계이다. 다른 교통이 없을 경우 모든 방향에서 정지 의무가 없지만, 통행량이 급증할 경우 통행우선권이 불분명해 무질서해지기 쉽다. 또한, 좁은 골목길에서 ”정지차량”, “역주행차량”은 들어오는 차량의 시야를 방해하고, 교통사고 및 교통 혼잡을 유발하는 주요 요인이다.
 
 <p align="center">
-<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/c6b9a777-6267-4f02-a628-7937d536817c">
+<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/bb3c679d-2b8d-41a3-b737-913952b75914">
 </p>
 
 > LED 조명을 이용해 야간 시 보행자와 차량 운전자에게 주의를 줘 교통 사고를 예방하는데 큰 도움을 주었다고 한다. 서울 성동구에서는 스마트횡단보도 설치 후 구의 교통 사고 발생률이 21.5% 감소하는 효과가 있었다. 전남 광주시는 교통 사고율을 줄이기 위해 지역 내 22개 구역에 스마트 횡단보도를 구축한다는 계획을 밝혔다.
 현재 서울시는 시민이 더욱 안전하고 쾌적한 삶을 영위할 수 있도록  주요 장소에 가로등에 여러 기능을 추가한 “스마트폴”을 설치하고 있다. 
 
 <p align="center">
-<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/51a1e93a-9bcc-4c96-ad75-265646641a38">
+<img src="https://github.com/Team-pi3/AI-Smart-Street-Lamp/assets/101693311/380cb1df-ca68-4a8e-ad03-57233ccae80f">
 </p>
 
 > 또한 2020년 은평구에서 5곳에 AI 보행자 교통사고 방지 시스템을 도입한 것을 시작으로 현재 인천시에서도 우회전 가로등이 설치되어있는 것을 보아 가로등에 기능을 추가하여 안전한 환경을 구축하려는 정항이 많이 보이고 있다.
