@@ -95,7 +95,7 @@
 |   OS   |  Linux (NVIDIA – JetPack)                  |
 |       IDE        |  Visual Studio Code                       |
 |       개발도구        | CUDA Toolkit / OpenCV / TensorFlow / PyTorch / Yolov7|
-| 개발언어      | Python / C++                                  |
+| 개발언어      | Python                                  |
 |     기타사항          |                                              |
 
 | **H/W**  구성장비     |                상세내용                              |
